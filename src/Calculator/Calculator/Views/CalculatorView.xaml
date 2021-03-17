@@ -95,7 +95,7 @@
                 Command="{Binding ClearEntryCommand}"
                 Style="{StaticResource ControlButtonStyle}"/>
             <Button
-                Text="C"
+                Text="c"
                 Grid.Row="0" 
                 Grid.Column="2"              
                 AutomationId="CButton"
@@ -194,6 +194,7 @@
                 AutomationId="OperatorPlus+"
                 CommandParameter="+"
                 Style="{StaticResource OperatorButtonStyle}"/>
+		
             <!-- Row 4 (0, . and =) -->
             <Button 
                 Text="0"
